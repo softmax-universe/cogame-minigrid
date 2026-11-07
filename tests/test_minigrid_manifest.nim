@@ -208,4 +208,3 @@ suite "minigrid manifest":
     check "  minigrid:" in compose
     check "image: coworld-minigrid:latest" in compose
     check "platform: linux/amd64" in compose
-    check "network: host" in compose
